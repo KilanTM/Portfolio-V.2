@@ -32,7 +32,7 @@ header.navbar {
       #f14446 20px
     );
     background-size: 400% 400%;
-    animation: pixelSlide 8s linear infinite;
+    animation: pixelSlide 4s linear infinite;
   }
   
   @keyframes pixelSlide {
@@ -250,3 +250,23 @@ footer a:hover {
       color: #c91b3a;
       font-family: Cochin;
   }
+
+  .resume{
+    text-decoration: none;
+    color: #f14446;
+}
+
+.find-me1{
+    width: 7vw;
+    padding: 3px;
+}
+
+.find-me2{
+    width: 6vw;
+    padding: 3px;
+}
+
+.find-me3{
+    width: 5.5vw;
+    padding: 3px;
+}
