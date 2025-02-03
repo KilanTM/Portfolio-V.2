@@ -113,6 +113,10 @@ footer a:hover {
     height: 45vh;
 }
 
+.hh2{
+    height: 67vh;
+}
+
 /* Projects Page Styles */
 .projects-content {
     text-align: center;
@@ -135,6 +139,7 @@ footer a:hover {
     border: 1px solid #444c47;
     border-radius: 5px;
     background-color: #11212c;
+
 }
 
 .project-item h2 {
@@ -269,4 +274,36 @@ footer a:hover {
 .find-me3{
     width: 5.5vw;
     padding: 3px;
+}
+
+@media screen and (max-width: 768px){
+    .my-text{
+        font-size: large;
+    }
+
+    .image-container img {
+        margin:2% 0% 0% 5%;
+      }
+    
+    .logo-names{
+        font-size: large;
+    }
+
+    .find-me3{
+        width: 10vw;
+        padding: 5px;
+    }
+
+    .find-me2{
+        width: 10.5vw;
+        padding: 5px;
+    }
+    
+    .hh{
+        height: 15vh;
+    }
+
+    .hh2{
+        height: 23vh;
+    }
 }
